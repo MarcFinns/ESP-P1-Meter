@@ -4213,38 +4213,38 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <parts>
 <part name="U1" library="esp8266modules" deviceset="ESP12" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="_SOD-123FL"/>
-<part name="C1" library="rc-master-smd" deviceset="C_" device="0805MP"/>
-<part name="C2" library="rc-master-smd" deviceset="C_" device="0805MP"/>
-<part name="Q1" library="epic" deviceset="NMOSSOT23" device=""/>
-<part name="R1" library="passives" deviceset="RESISTOR" device="0805_RES"/>
-<part name="R2" library="passives" deviceset="RESISTOR" device="0805_RES"/>
+<part name="C1" library="rc-master-smd" deviceset="C_" device="0805MP" value="100nF"/>
+<part name="C2" library="rc-master-smd" deviceset="C_" device="0805MP" value="100nF"/>
+<part name="Q1" library="epic" deviceset="NMOSSOT23" device="" value="SI2302"/>
+<part name="R1" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
+<part name="R2" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="passives" deviceset="RESISTOR" device="0805_RES"/>
+<part name="R3" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
 <part name="PROG" library="adafruit" deviceset="PINHD-1X6" device="B"/>
-<part name="R4" library="passives" deviceset="RESISTOR" device="0805_RES"/>
+<part name="R4" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
 <part name="RST" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="passives" deviceset="RESISTOR" device="0805_RES"/>
+<part name="R5" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
 <part name="PGM" library="adafruit" deviceset="SWITCH_PUSHBUTTON" device="C&amp;K_KSS"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="passives" deviceset="RESISTOR" device="0805_RES"/>
-<part name="R7" library="passives" deviceset="RESISTOR" device="0805_RES"/>
+<part name="R6" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
+<part name="R7" library="passives" deviceset="RESISTOR" device="0805_RES" value="12K"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="R8" library="passives" deviceset="RESISTOR" device="0805_RES"/>
-<part name="R9" library="passives" deviceset="RESISTOR" device="0805_RES"/>
-<part name="IC1" library="v-reg-3" deviceset="LM1117" device=""/>
+<part name="R8" library="passives" deviceset="RESISTOR" device="0805_RES" value="470R"/>
+<part name="R9" library="passives" deviceset="RESISTOR" device="0805_RES" value="470R"/>
+<part name="IC1" library="v-reg-3" deviceset="LM1117" device="" value="LM1117"/>
 <part name="J1" library="pulse-eng" deviceset="J0011D01" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="JP1" library="jumpers" deviceset="SJ-" device="035"/>
 <part name="JP2" library="jumpers" deviceset="SJ-" device="035"/>
-<part name="Q2" library="epic" deviceset="NMOSSOT23" device=""/>
+<part name="Q2" library="epic" deviceset="NMOSSOT23" device="" value="SI2302"/>
 <part name="R10" library="passives" deviceset="RESISTOR" device="0805_RES"/>
 </parts>
 <sheets>
@@ -4263,7 +4263,7 @@ RST</text>
 <attribute name="VALUE" x="45.72" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="-27.94" y="33.02">
-<attribute name="NAME" x="-30.226" y="34.925" size="1.778" layer="95"/>
+<attribute name="NAME" x="-30.226" y="29.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-30.226" y="29.591" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="-20.32" y="25.4" rot="R90">
@@ -4333,7 +4333,7 @@ RST</text>
 </instance>
 <instance part="R6" gate="G$1" x="96.52" y="53.34" rot="MR180">
 <attribute name="NAME" x="92.71" y="51.8414" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="92.71" y="56.642" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="49.022" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R7" gate="G$1" x="81.28" y="50.8" rot="MR0">
 <attribute name="NAME" x="85.09" y="52.2986" size="1.778" layer="95" rot="MR0"/>
@@ -4372,13 +4372,13 @@ RST</text>
 <instance part="JP2" gate="G$1" x="5.08" y="78.74">
 <attribute name="NAME" x="2.54" y="80.645" size="1.778" layer="95"/>
 </instance>
-<instance part="Q2" gate="A" x="-27.94" y="45.72" rot="MR270">
-<attribute name="VALUE" x="-27.94" y="43.18" size="1.778" layer="96" rot="MR270"/>
-<attribute name="NAME" x="-30.48" y="43.18" size="1.778" layer="95" rot="MR270"/>
+<instance part="Q2" gate="A" x="-27.94" y="48.26" rot="MR270">
+<attribute name="VALUE" x="-27.94" y="45.72" size="1.778" layer="96" rot="MR270"/>
+<attribute name="NAME" x="-30.48" y="45.72" size="1.778" layer="95" rot="MR270"/>
 </instance>
-<instance part="R10" gate="G$1" x="-40.64" y="50.8" rot="R90">
-<attribute name="NAME" x="-42.1386" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-37.338" y="46.99" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="-40.64" y="53.34" rot="R90">
+<attribute name="NAME" x="-42.1386" y="49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-37.338" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -4453,8 +4453,8 @@ RST</text>
 </segment>
 <segment>
 <pinref part="Q2" gate="A" pin="G"/>
-<wire x1="-27.94" y1="50.8" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
-<label x="-30.48" y="53.34" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="53.34" x2="-27.94" y2="55.88" width="0.1524" layer="91"/>
+<label x="-30.48" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -4492,8 +4492,8 @@ RST</text>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="53.34" x2="-40.64" y2="55.88" width="0.1524" layer="91"/>
-<label x="-40.64" y="53.34" size="1.778" layer="95" rot="R90"/>
+<wire x1="-40.64" y1="55.88" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
+<label x="-40.64" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4705,11 +4705,11 @@ RST</text>
 <net name="REQ" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="45.72" x2="-48.26" y2="45.72" width="0.1524" layer="91"/>
-<label x="-50.8" y="45.72" size="1.778" layer="95"/>
+<wire x1="-40.64" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
+<label x="-50.8" y="48.26" size="1.778" layer="95"/>
 <pinref part="Q2" gate="A" pin="D"/>
-<wire x1="-33.02" y1="45.72" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
-<junction x="-40.64" y="45.72"/>
+<wire x1="-33.02" y1="48.26" x2="-40.64" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-40.64" y="48.26"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="RD+"/>
@@ -4720,8 +4720,8 @@ RST</text>
 <net name="P1EN" class="0">
 <segment>
 <pinref part="Q2" gate="A" pin="S"/>
-<wire x1="-22.86" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="-17.78" y="45.72" size="1.778" layer="95"/>
+<wire x1="-22.86" y1="48.26" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="-17.78" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO5"/>
